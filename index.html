@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 1<script>
+var number = parseInt(prompt("Please enter a number from 1 to -100:"));
+
+if (number < -100 || number > 1) {
+  console.log("Invalid number. Please enter a number between 1 and -100.");
+} else {
+  for (var i = 0; i <= number; i++) {
+    if (i % 2 !== 0) {
+      console.log(i);
+    }
+  }
+}
+
+    </script> -->
+
+    <!-- 2<script>
+var userInput = parseInt(prompt("Please enter a number between 300 and 500:"));
+
+if (userInput < 300 || userInput > 500) {
+  console.log("Invalid number. Please enter a number between 300 and 500.");
+} else {
+  var randomNum = Math.floor(Math.random() * (100 - 50 + 1)) + 50;
+
+  console.log("Randomly generated number: " + randomNum);
+
+  var smallerNum = Math.min(userInput, randomNum);
+  var largerNum = Math.max(userInput, randomNum);
+
+  console.log("Multiples of 2 between " + smallerNum + " and " + largerNum + ":");
+
+  for (var i = smallerNum; i <= largerNum; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+  }
+}
+
+    </script> -->
+
+    <!-- 3<script>
+var userInput = parseInt(prompt("Please enter a number between 70 and 100:"));
+
+if (userInput < 70 || userInput > 100) {
+  console.log("Invalid number. Please enter a number between 70 and 100.");
+} else {
+  var sum = 0;
+  var count = 0;
+
+  for (var i = 0; i <= userInput; i++) {
+    sum += i;
+    count++;
+  }
+
+  var mean = sum / count;
+
+  console.log("Arithmetic mean of numbers between 0 and " + userInput + ": " + mean);
+}
+
+    </script> -->
+
+    <!-- 4<script>
+for (var i = 0; i <= 1600; i++) {
+  if (i % 5 === 0 && i % 10 !== 0) {
+    console.log(i);
+  }
+}
+
+    </script> -->
+
+    <!-- 5<script>
+var userInput = parseInt(prompt("Please enter a number between 50 and 100:"));
+
+if (userInput < 50 || userInput > 100) {
+  console.log("Invalid number. Please enter a number between 50 and 100.");
+} else {
+  var factorial = 1;
+
+  for (var i = 1; i <= userInput; i++) {
+    factorial *= i;
+  }
+
+  console.log(userInput + "! = " + factorial);
+}
+    </script> -->
+    <!-- 6<script>
+var userInput = parseInt(prompt("Please enter a number between 100 and 200:"));
+
+if (userInput < 100 || userInput > 200) {
+  console.log("Invalid number. Please enter a number between 100 and 200.");
+} else {
+  console.log("Numbers from 0 to " + userInput + " that divide " + userInput + " without a remainder:");
+
+  for (var i = 0; i <= userInput; i++) {
+    if (userInput % i === 0) {
+      console.log(i);
+    }
+  }
+}
+
+    </script> -->
+<!-- 
+    7<script>
+var userInput = parseInt(prompt("Please enter a number:"));
+
+if (userInput < 2) {
+  console.log("The number is neither prime nor composite.");
+} else {
+  var isPrime = true;
+
+  for (var i = 2; i <= Math.sqrt(userInput); i++) {
+    if (userInput % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (isPrime) {
+    console.log(userInput + " is a prime number.");
+  } else {
+    console.log(userInput + " is a composite number.");
+  }
+}
+
+    </script> -->
+
+    <!-- 8<script>
+var userInput = parseInt(prompt("Please enter a number:"));
+
+if (userInput < 1 || !Number.isInteger(userInput)) {
+  console.log("Invalid number. Please enter a positive integer.");
+} else {
+  var product = 1;
+
+  for (var i = 1; i <= userInput; i++) {
+    product *= i;
+  }
+
+  console.log("The product of numbers from 1 to " + userInput + " is: " + product);
+}
+
+    </script> -->
+
+    <!-- 9<script>
+var userInput = parseInt(prompt("Please enter a number between 1 and 10:"));
+
+if (userInput < 1 || userInput > 10) {
+  console.log("Invalid number. Please enter a number between 1 and 10.");
+} else {
+  console.log("Multiplication table for " + userInput + ":");
+
+  for (var i = 1; i <= 10; i++) {
+    var result = userInput * i;
+    console.log(userInput + " x " + i + " = " + result);
+  }
+}
+
+    </script> -->
+</body>
+</html>
